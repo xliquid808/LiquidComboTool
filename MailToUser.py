@@ -40,7 +40,6 @@ def doMailToUser():
     print("loaded accounts.")
     time.sleep(1)
     print("---------------------------------------------------------------")
-    doWTD()
     createOut = open("Mail To User-" + combo,"w+")
     with open(combo) as infile:
         for line in infile:
